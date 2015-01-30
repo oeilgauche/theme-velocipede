@@ -24,7 +24,7 @@
 		visibility: hidden;
 	}
 	#metaslider_17 {
-		display: table-cell;
+		//display: table-cell;
 		position: relative;
 		.caption-wrap  {
 			text-align: center;
@@ -35,6 +35,12 @@
 			.caption {
 				font-size: 5em;
 				width: 100%;
+				h2 {
+					color: $white;
+				}
+				h3 {
+					color: $smoke;
+				}
 			}
 			
 		}
