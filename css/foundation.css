@@ -17463,7 +17463,10 @@ img.alignright {
   .home .feature li {
     text-align: center; }
     .home .feature li img {
-      border-radius: 50%; }
+      border-radius: 50%;
+      transition: transform .25s ease; }
+    .home .feature li img:hover {
+      transform: scale(1.1); }
 
 .inner-wrap .top-bar-container {
   margin-bottom: 0; }
