@@ -17471,6 +17471,7 @@ img.alignright {
 .metaslider-17 .rslides_nav {
   visibility: hidden; }
 .metaslider-17 #metaslider_17 {
+  display: table-cell;
   position: relative; }
   .metaslider-17 #metaslider_17 .caption-wrap {
     text-align: center;
@@ -17481,7 +17482,3 @@ img.alignright {
     .metaslider-17 #metaslider_17 .caption-wrap .caption {
       font-size: 5em;
       width: 100%; }
-      .metaslider-17 #metaslider_17 .caption-wrap .caption h2 {
-        color: #FFFFFF; }
-      .metaslider-17 #metaslider_17 .caption-wrap .caption h3 {
-        color: #EEEEEE; }
