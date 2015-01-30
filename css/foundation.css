@@ -17471,9 +17471,14 @@ img.alignright {
 .metaslider-17 .rslides_nav {
   visibility: hidden; }
 .metaslider-17 #metaslider_17 {
-  vertical-align: middle; }
+  display: table-cell;
+  position: relative; }
   .metaslider-17 #metaslider_17 .caption-wrap {
-    background: none; }
+    text-align: center;
+    background: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); }
     .metaslider-17 #metaslider_17 .caption-wrap .caption {
       font-size: 5em;
       width: 100%; }
