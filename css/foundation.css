@@ -21632,8 +21632,8 @@ img.alignright {
 nav li.menu-item-26 {
   background-color: #f04124;
 }
-nav li.menu-item-26 a {
-  color: #FFFFFF;
+nav li.menu-item-26 a.button {
+  top: 25%;
 }
 
 .home .feature {

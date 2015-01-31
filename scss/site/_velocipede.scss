@@ -17,8 +17,9 @@ nav {
 	}
 	li.menu-item-26 { // Bouton reserver
 		background-color: $alert-color;
-		a {
-			color: $white;
+		a.button {
+			// color: $white;
+			top: 25%;
 		}
 	}
 	
