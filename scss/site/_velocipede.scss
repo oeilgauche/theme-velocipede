@@ -5,6 +5,26 @@
 */
 
 /* TODO: Footer avec renvoi vers top*/
+
+// Global
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+// Menu
+
+nav {
+	ul.title-area { // Logo
+		
+	}
+	li.menu-item-26 { // Bouton reserver
+		background-color: $alert-color;
+		a {
+			color: $white;
+		}
+	}
+	
+}
+
+// Homepage
 .home {
 	.feature {
 		margin-top: 20px;

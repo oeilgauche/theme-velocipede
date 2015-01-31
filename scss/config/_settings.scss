@@ -90,6 +90,8 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$font-family-sans-serif:'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+// "ralewaysemibold",Helvetica,Arial,sans-serif !important
 
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
@@ -118,7 +120,7 @@ $jet         : #222222;
 // We use these as default colors throughout
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
-// $alert-color: #f04124;
+$alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
@@ -1368,7 +1370,8 @@ $topbar-bg-color: $white-smoke;
 $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: rem-calc(45);
+//$topbar-height: rem-calc(55);
+$topbar-height: 55px;
 $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
