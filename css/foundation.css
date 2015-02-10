@@ -21637,6 +21637,37 @@ nav li.menu-item-26 a.button {
   background-color: #f04124;
   border-radius: 500px;
 }
+nav li.menu-item-26 a.button:hover {
+  background-color: #cf2a0e;
+}
+
+footer {
+  background-color: #555555;
+}
+footer article {
+  padding-top: 10px;
+}
+footer article ul {
+  list-style: outside none none;
+  margin-left: 0;
+}
+footer article ul li {
+  margin-left: 1.1rem;
+}
+footer article ul li a {
+  color: #FFFFFF;
+}
+footer article ul li a:hover {
+  color: #F5F5F5;
+}
+footer article ul li.menu-item-26 a.button {
+  top: 24%;
+  background-color: #f04124;
+  border-radius: 500px;
+}
+footer article ul li.menu-item-26 a.button:hover {
+  background-color: #cf2a0e;
+}
 
 .home .feature {
   margin-top: 20px;

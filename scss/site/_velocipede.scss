@@ -23,8 +23,42 @@ nav {
 			background-color: $alert-color;
 			border-radius: 500px;
 		}
+		a.button:hover {
+			background-color: #cf2a0e;
+		}
 	}
 	
+}
+// Footer
+footer {
+	background-color: $charcoal;
+	article {
+		padding-top: 10px;
+		ul {
+			list-style: outside none none;
+			margin-left: $list-side-margin-no-bullet;
+			li {
+				margin-left: $list-side-margin;
+				a {
+					color: $white;
+				}
+				a:hover {
+					color: $white-smoke;
+				}
+			}
+			li.menu-item-26 {
+				a.button {
+					// color: $white;
+					top: 24%;
+					background-color: $alert-color;
+					border-radius: 500px;
+				}
+				a.button:hover {
+					background-color: #cf2a0e;
+				}
+			}
+		}
+	}
 }
 
 // Homepage
