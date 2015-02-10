@@ -21651,6 +21651,11 @@ nav li.menu-item-26 a.button {
 .home .feature li img:hover {
   transform: scale(1.1);
 }
+.home .main-container {
+  padding: 10px 0 0 0;
+  margin: 0;
+  background-color: #EFEFEF;
+}
 
 .inner-wrap .top-bar-container {
   margin-bottom: 0;
