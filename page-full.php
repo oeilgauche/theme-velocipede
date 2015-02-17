@@ -3,6 +3,20 @@
 Template Name: Full Width
 */
 get_header(); ?>
+
+<?php while ( have_posts() ) : the_post(); ?>
+
+	<?php
+	if (get_field('bandeau_de_page')) {
+	// put the field array into a variable
+	$imgarray = get_field( 'bandeau_de_page' );
+	?>
+	<img src="<?php echo $imgarray['url'] ; ?>" alt=""/>
+	<?php } //end if ?>
+
+<?php endwhile; // end of the loop. ?>
+
+
 <div class="row">
 	<div class="small-12 large-12 columns" role="main">
 
