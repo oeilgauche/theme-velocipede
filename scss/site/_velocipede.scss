@@ -9,6 +9,13 @@
 // Global
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
+body {
+	background-color: $charcoal;
+	.container {
+		background-color: $white;
+	}
+}
+
 // Menu
 
 nav {
@@ -31,14 +38,10 @@ nav {
 }
 // Footer
 footer {
-	background-color: $charcoal;
-	article {
-		padding-top: 10px;
+	//background-color: $charcoal;
+			padding-top: 10px;
 		ul {
-			list-style: outside none none;
-			margin-left: $list-side-margin-no-bullet;
 			li {
-				margin-left: $list-side-margin;
 				a {
 					color: $white;
 				}
@@ -58,7 +61,6 @@ footer {
 				}
 			}
 		}
-	}
 }
 
 // Homepage
