@@ -7,7 +7,7 @@
 /* TODO: Footer avec renvoi vers top*/
 
 // Global
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
 
 body {
 	background-color: $charcoal;
@@ -38,29 +38,36 @@ nav {
 }
 // Footer
 footer {
-	//background-color: $charcoal;
-			padding-top: 10px;
-		ul {
-			li {
-				a {
-					color: $white;
-				}
-				a:hover {
-					color: $white-smoke;
-				}
-			}
-			li.menu-item-26 {
-				a.button {
-					// color: $white;
-					top: 24%;
-					background-color: $alert-color;
-					border-radius: 500px;
-				}
-				a.button:hover {
-					background-color: #cf2a0e;
-				}
+	ul#footer-menu-principal {
+		//margin-top: 25px;
+		li.menu-item-has-children, li.menu-item-55 {
+			a {
+				text-transform: uppercase;
+				font-weight: 600;
 			}
 		}
+	}	
+	ul {
+		li {
+			a {
+				color: $white;
+			}
+			a:hover {
+				color: $white-smoke;
+			}
+		}
+		li.menu-item-26 {
+			a.button {
+				// color: $white;
+				top: 24%;
+				background-color: $alert-color;
+				border-radius: 500px;
+			}
+			a.button:hover {
+				background-color: #cf2a0e;
+			}
+		}
+	}
 }
 
 // Homepage
