@@ -46,7 +46,14 @@ footer {
 				font-weight: 600;
 			}
 		}
-	}	
+	}
+	ul#footer-menu-secondaire {
+		li {
+			a {
+				font-style: italic;
+			}
+		}
+	}
 	ul {
 		li {
 			a {
@@ -62,6 +69,9 @@ footer {
 				top: 24%;
 				background-color: $alert-color;
 				border-radius: 500px;
+				margin: 0;
+				padding-right: 18.3333px;
+				padding-left: 18.3333px;
 			}
 			a.button:hover {
 				background-color: #cf2a0e;

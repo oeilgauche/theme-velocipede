@@ -18630,11 +18630,11 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li.active > a {
   background: #008CBA;
-  color: #333333;
+  color: #FFFFFF;
 }
 .top-bar-section ul li.active > a:hover {
   background: #0078a0;
-  color: #222222;
+  color: #333333;
 }
 .top-bar-section .has-form {
   padding: 18.33333px;
@@ -18797,12 +18797,12 @@ meta.foundation-mq-topbar {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 18.33333px;
     line-height: 55px;
-    color: #333333;
+    color: #FFFFFF;
     background: #008CBA;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #0078a0;
-    color: #222222;
+    color: #333333;
   }
   .top-bar-section .has-dropdown > a {
     padding-right: 38.33333px !important;
@@ -18920,7 +18920,7 @@ meta.foundation-mq-topbar {
   }
   .no-js .top-bar-section ul li:active > a {
     background: #008CBA;
-    color: #333333;
+    color: #FFFFFF;
   }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -21652,6 +21652,9 @@ footer ul#footer-menu-principal li.menu-item-has-children a, footer ul#footer-me
   text-transform: uppercase;
   font-weight: 600;
 }
+footer ul#footer-menu-secondaire li a {
+  font-style: italic;
+}
 footer ul li a {
   color: #FFFFFF;
 }
@@ -21662,6 +21665,9 @@ footer ul li.menu-item-26 a.button {
   top: 24%;
   background-color: #f04124;
   border-radius: 500px;
+  margin: 0;
+  padding-right: 18.3333px;
+  padding-left: 18.3333px;
 }
 footer ul li.menu-item-26 a.button:hover {
   background-color: #cf2a0e;
