@@ -25,13 +25,15 @@ get_header(); ?>
 //$velo_query = new WP_Query('pagename=au-velocipede');
 $velo_query = new WP_Query(array(
 			'post_type' => 'page',
-			'post__in' => array( 20, 22) ));
+			'post__in' => array( 20, 22),
+			'order' => ASC));
 while ( $velo_query->have_posts() ) {
 	$velo_query->the_post();
 ?>	
 		<li>
-			<?php the_post_thumbnail(array( 'class' => 'th' )); ?>
-			<h4><?php echo get_the_title(); ?></h1>
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array( 'class' => 'th' )); ?></a>
+			<h2><?php echo get_post_meta( get_the_ID(), 'titre_display', true ); ?></h2>
+			<h3><?php echo get_post_meta( get_the_ID(), 'sous_titre', true ); ?></h3>
 			<p><?php echo get_post_meta( get_the_ID(), 'space_description', true ); ?></p>
 		</li>
 <?php

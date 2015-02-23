@@ -21629,6 +21629,11 @@ img.alignright {
 
 */
 /* TODO: Footer avec renvoi vers top*/
+/**********
+*
+* Global
+*
+**********/
 body {
   background-color: #555555;
 }
@@ -21636,6 +21641,11 @@ body .container {
   background-color: #FFFFFF;
 }
 
+/**********
+*
+* Menu
+*
+**********/
 nav li.menu-item-26 {
   background-color: #f04124;
 }
@@ -21648,6 +21658,11 @@ nav li.menu-item-26 a.button:hover {
   background-color: #cf2a0e;
 }
 
+/**********
+*
+* Footer
+*
+**********/
 footer ul#footer-menu-principal li.menu-item-has-children a, footer ul#footer-menu-principal li.menu-item-55 a {
   text-transform: uppercase;
   font-weight: 600;
@@ -21673,6 +21688,11 @@ footer ul li.menu-item-26 a.button:hover {
   background-color: #cf2a0e;
 }
 
+/**********
+*
+* Homepage
+*
+**********/
 .home .feature {
   margin-top: 20px;
 }
@@ -21718,4 +21738,20 @@ footer ul li.menu-item-26 a.button:hover {
 }
 .metaslider-17 #metaslider_17 .caption-wrap .caption h3 {
   color: #FFFFFF;
+}
+
+/**********
+*
+* Page Les Chambres
+*
+**********/
+.page-id-4 .large-block-grid-2 li {
+  text-align: center;
+}
+.page-id-4 .large-block-grid-2 li h2 {
+  margin-bottom: 0;
+}
+.page-id-4 .large-block-grid-2 li h3 {
+  margin-top: 0;
+  font-style: italic;
 }

@@ -6,7 +6,11 @@
 
 /* TODO: Footer avec renvoi vers top*/
 
-// Global
+/**********
+*
+* Global
+*
+**********/
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
 
 body {
@@ -16,7 +20,11 @@ body {
 	}
 }
 
-// Menu
+/**********
+*
+* Menu
+*
+**********/
 
 nav {
 	ul.title-area { // Logo
@@ -36,7 +44,13 @@ nav {
 	}
 	
 }
-// Footer
+
+/**********
+*
+* Footer
+*
+**********/
+
 footer {
 	ul#footer-menu-principal {
 		//margin-top: 25px;
@@ -80,7 +94,12 @@ footer {
 	}
 }
 
-// Homepage
+/**********
+*
+* Homepage
+*
+**********/
+
 .home {
 	.feature {
 		margin-top: 20px;
@@ -131,5 +150,25 @@ footer {
 		}
 		
 	
+	}
+}
+
+/**********
+*
+* Page Les Chambres
+*
+**********/
+.page-id-4 {
+	.large-block-grid-2 {
+		li {
+			text-align: center;
+			h2 {
+				margin-bottom: 0;
+			}
+			h3 {
+				margin-top: 0;
+				font-style: italic;
+			}
+		}
 	}
 }
