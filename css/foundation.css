@@ -21663,6 +21663,9 @@ nav li.menu-item-26 a.button:hover {
 * Footer
 *
 **********/
+footer {
+  padding-top: 15px;
+}
 footer ul#footer-menu-principal li.menu-item-has-children a, footer ul#footer-menu-principal li.menu-item-55 a {
   text-transform: uppercase;
   font-weight: 600;
@@ -21754,4 +21757,18 @@ footer ul li.menu-item-26 a.button:hover {
 .page-id-4 .large-block-grid-2 li h3 {
   margin-top: 0;
   font-style: italic;
+}
+
+/**********
+*
+* Galeries photo chambres
+*
+**********/
+.bottom-row {
+  padding-bottom: 15px;
+}
+
+.ngg-gallery-thumbnail a img {
+  border: none;
+  margin: 2px 0 2px 2px;
 }

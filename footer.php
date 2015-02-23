@@ -24,7 +24,7 @@
 				'walker'          => ''
 			);
 			
-			wp_nav_menu( $principal );
+			// wp_nav_menu( $principal );
 			
 			$secondaire = array(
 				'theme_location'  => '',

@@ -52,6 +52,7 @@ nav {
 **********/
 
 footer {
+	padding-top: 15px;
 	ul#footer-menu-principal {
 		//margin-top: 25px;
 		li.menu-item-has-children, li.menu-item-55 {
@@ -169,6 +170,23 @@ footer {
 				margin-top: 0;
 				font-style: italic;
 			}
+		}
+	}
+}
+
+/**********
+*
+* Galeries photo chambres
+*
+**********/
+.bottom-row {
+	padding-bottom: 15px;
+}
+.ngg-gallery-thumbnail {
+	a {
+		img {
+			border: none;
+			margin: 2px 0 2px 2px;
 		}
 	}
 }
