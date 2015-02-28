@@ -11,7 +11,7 @@
 * Global
 *
 **********/
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600|Amatic+SC:700|Just+Another+Hand|Sue+Ellen+Francisco);
 
 body {
 	background-color: $charcoal;
@@ -28,20 +28,39 @@ body {
 
 nav {
 	ul.title-area { // Logo
+		h1 {
+			width: 120px; 
+		  	height: 75px;
+		  	background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/icons/Logo-Light.png") no-repeat center;
+		  	text-indent: -9999px;
+		}
 		
 	}
-	li.menu-item-26 { // Bouton reserver
-		background-color: $alert-color;
-		a.button {
-			// color: $white;
-			top: 24%;
-			background-color: $alert-color;
-			border-radius: 500px;
-		}
-		a.button:hover {
-			background-color: #cf2a0e;
+	.top-bar-section {
+		#menu-principal-1 {
+			li.menu-item-26 { // Bouton reserver
+
+			  	a {
+			  		padding: 0;
+			  		width: 110px; 
+				  	height: 75px;
+				  	background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
+				  	text-indent: -9999px;
+			  	}
+				/*background-color: $alert-color;
+				a.button {
+					// color: $white;
+					top: 24%;
+					background-color: $alert-color;
+					border-radius: 500px;
+				}
+				a.button:hover {
+					background-color: #cf2a0e;
+				}*/
+			}
 		}
 	}
+	
 	
 }
 
@@ -102,16 +121,25 @@ footer {
 **********/
 
 .home {
-	.feature {
+	.bullets {
 		margin-top: 20px;
-		li {
+		div {
 			text-align: center;
 			img {
-				border-radius: 50%;
-				transition: transform .25s ease;
+				//border-radius: 50%;
+				//transform: scale(0.90);
+				//transition: transform .25s ease;
 			}
 			img:hover {
-				transform: scale(1.10);
+				//transform: scale(1);
+			}
+			h4 {
+				margin-bottom: 0;
+				line-height: 1;
+			}
+			p {
+				font-style: italic;
+				line-height: 1.2;
 			}
 		}
 	}
@@ -138,13 +166,25 @@ footer {
 			top: 50%;
 			transform: translate(0, -50%);
 			.caption {
-				font-size: 5em;
+				color: $white;
+				
+				text-transform: uppercase;
+				font-weight: 600;
 				width: 100%;
 				h2 {
 					color: $white;
 				}
 				h3 {
+					font-family: 'Amatic SC', cursive;
 					color: $white;
+					font-size: rem-calc(200);
+					font-weight: 700;
+					@media #{$medium-only} {
+						font-size: rem-calc(130);
+					 }
+					 @media #{$small-only} {
+						font-size: rem-calc(50);
+					 }
 				}
 			}
 			

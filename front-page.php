@@ -5,8 +5,7 @@
 ?>
 
 
-<div class="row">
-	<ul class="large-block-grid-3 feature">
+<div class="row bullets">
 <?php 
 // Liens vers les 3 espaces
 //$velo_query = new WP_Query('pagename=au-velocipede');
@@ -16,16 +15,15 @@ $velo_query = new WP_Query(array(
 while ( $velo_query->have_posts() ) {
 	$velo_query->the_post();
 ?>	
-		<li>
-			<?php the_post_thumbnail(array( 'class' => 'th' )); ?>
-			<h4><?php echo get_the_title(); ?></h1>
-			<p><?php echo get_post_meta( get_the_ID(), 'space_description', true ); ?></p>
-		</li>
+		<div class="large-4 columns">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('full'); ?></a>
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h4><?php echo get_post_meta( get_the_ID(), 'titre_display', true ); ?></h4></a>
+			<p><?php echo get_post_meta( get_the_ID(), 'sous_titre', true ); ?></p>
+		</div>
 <?php
 }
 wp_reset_postdata();
 ?>
-	</ul>
 </div>
 
 <div class="main-container">
@@ -56,9 +54,7 @@ wp_reset_postdata();
 
 <?php 
     // Module Google Maps
-    // echo do_shortcode("[wpgmza id=1]");
     echo do_shortcode("[put_wpgm id=1]"); 
-
 ?>
 
 <?php get_footer(); ?>

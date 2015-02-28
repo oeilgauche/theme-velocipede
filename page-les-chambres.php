@@ -31,7 +31,7 @@ while ( $velo_query->have_posts() ) {
 	$velo_query->the_post();
 ?>	
 		<li>
-			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array( 'class' => 'th' )); ?></a>
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full'); ?></a>
 			<h2><?php echo get_post_meta( get_the_ID(), 'titre_display', true ); ?></h2>
 			<h3><?php echo get_post_meta( get_the_ID(), 'sous_titre', true ); ?></h3>
 			<p><?php echo get_post_meta( get_the_ID(), 'space_description', true ); ?></p>

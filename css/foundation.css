@@ -5,7 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600|Amatic+SC:700|Just+Another+Hand|Sue+Ellen+Francisco);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -18356,13 +18356,13 @@ meta.foundation-mq-topbar {
 }
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 55px;
+  margin-top: 75px;
 }
 
 .top-bar {
   overflow: hidden;
-  height: 55px;
-  line-height: 55px;
+  height: 75px;
+  line-height: 75px;
   position: relative;
   background: #F5F5F5;
   margin-bottom: 0;
@@ -18401,12 +18401,12 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 .top-bar .name {
-  height: 55px;
+  height: 75px;
   margin: 0;
   font-size: 16px;
 }
 .top-bar .name h1 {
-  line-height: 55px;
+  line-height: 75px;
   font-size: 1.0625rem;
   margin: 0;
 }
@@ -18415,7 +18415,7 @@ meta.foundation-mq-topbar {
   color: #333333;
   width: 75%;
   display: block;
-  padding: 0 18.33333px;
+  padding: 0 25px;
 }
 .top-bar .toggle-topbar {
   position: absolute;
@@ -18429,9 +18429,9 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 18.33333px;
-  height: 55px;
-  line-height: 55px;
+  padding: 0 25px;
+  height: 75px;
+  line-height: 75px;
 }
 .top-bar .toggle-topbar.menu-icon {
   top: 50%;
@@ -18440,7 +18440,7 @@ meta.foundation-mq-topbar {
 .top-bar .toggle-topbar.menu-icon a {
   height: 34px;
   line-height: 33px;
-  padding: 0 43.33333px 0 18.33333px;
+  padding: 0 50px 0 25px;
   color: #FFFFFF;
   position: relative;
 }
@@ -18451,7 +18451,7 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -8px;
-  right: 18.33333px;
+  right: 25px;
   box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
   width: 16px;
 }
@@ -18501,7 +18501,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: #333333;
   padding: 12px 0 12px 0;
-  padding-left: 18.33333px;
+  padding-left: 25px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
@@ -18509,8 +18509,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li > a.button {
   font-size: 0.8125rem;
-  padding-right: 18.33333px;
-  padding-left: 18.33333px;
+  padding-right: 25px;
+  padding-left: 25px;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -18567,8 +18567,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li > button {
   font-size: 0.8125rem;
-  padding-right: 18.33333px;
-  padding-left: 18.33333px;
+  padding-right: 25px;
+  padding-left: 25px;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -18637,7 +18637,7 @@ meta.foundation-mq-topbar {
   color: #333333;
 }
 .top-bar-section .has-form {
-  padding: 18.33333px;
+  padding: 25px;
 }
 .top-bar-section .has-dropdown {
   position: relative;
@@ -18650,7 +18650,7 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 18.33333px;
+  margin-right: 25px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -18691,7 +18691,7 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 18.33333px;
+  padding: 8px 25px;
 }
 .top-bar-section .dropdown li a.parent-link {
   font-weight: normal;
@@ -18709,13 +18709,13 @@ meta.foundation-mq-topbar {
   background: none;
 }
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 18.33333px;
+  padding: 8px 25px;
 }
 .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
   top: auto;
 }
 .top-bar-section .dropdown label {
-  padding: 8px 18.33333px 2px;
+  padding: 8px 25px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -18786,8 +18786,8 @@ meta.foundation-mq-topbar {
     color: #FFFFFF;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 18.33333px;
-    line-height: 55px;
+    padding: 0 25px;
+    line-height: 75px;
     background: #F5F5F5;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -18795,8 +18795,8 @@ meta.foundation-mq-topbar {
     background: #272727;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 18.33333px;
-    line-height: 55px;
+    padding: 0 25px;
+    line-height: 75px;
     color: #FFFFFF;
     background: #008CBA;
   }
@@ -18805,7 +18805,7 @@ meta.foundation-mq-topbar {
     color: #333333;
   }
   .top-bar-section .has-dropdown > a {
-    padding-right: 38.33333px !important;
+    padding-right: 45px !important;
   }
   .top-bar-section .has-dropdown > a:after {
     content: "";
@@ -18816,7 +18816,7 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 27.5px;
+    top: 37.5px;
   }
   .top-bar-section .has-dropdown.moved {
     position: relative;
@@ -18863,9 +18863,9 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section .dropdown li a {
     color: #FFFFFF;
-    line-height: 55px;
+    line-height: 75px;
     white-space: nowrap;
-    padding: 12px 18.33333px;
+    padding: 12px 25px;
     background: #333333;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
@@ -18890,13 +18890,13 @@ meta.foundation-mq-topbar {
     border-top: none;
     border-right: solid 1px #f6f6f6;
     clear: none;
-    height: 55px;
+    height: 75px;
     width: 0;
   }
   .top-bar-section .has-form {
     background: #F5F5F5;
-    padding: 0 18.33333px;
-    height: 55px;
+    padding: 0 25px;
+    height: 75px;
   }
   .top-bar-section .right li .dropdown {
     left: auto;
@@ -21646,16 +21646,30 @@ body .container {
 * Menu
 *
 **********/
-nav li.menu-item-26 {
-  background-color: #f04124;
+nav ul.title-area h1 {
+  width: 120px;
+  height: 75px;
+  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/icons/Logo-Light.png") no-repeat center;
+  text-indent: -9999px;
 }
-nav li.menu-item-26 a.button {
-  top: 24%;
-  background-color: #f04124;
-  border-radius: 500px;
+nav .top-bar-section #menu-principal-1 li.menu-item-26 {
+  /*background-color: $alert-color;
+  a.button {
+  	// color: $white;
+  	top: 24%;
+  	background-color: $alert-color;
+  	border-radius: 500px;
+  }
+  a.button:hover {
+  	background-color: #cf2a0e;
+  }*/
 }
-nav li.menu-item-26 a.button:hover {
-  background-color: #cf2a0e;
+nav .top-bar-section #menu-principal-1 li.menu-item-26 a {
+  padding: 0;
+  width: 110px;
+  height: 75px;
+  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
+  text-indent: -9999px;
 }
 
 /**********
@@ -21696,18 +21710,19 @@ footer ul li.menu-item-26 a.button:hover {
 * Homepage
 *
 **********/
-.home .feature {
+.home .bullets {
   margin-top: 20px;
 }
-.home .feature li {
+.home .bullets div {
   text-align: center;
 }
-.home .feature li img {
-  border-radius: 50%;
-  transition: transform .25s ease;
+.home .bullets div h4 {
+  margin-bottom: 0;
+  line-height: 1;
 }
-.home .feature li img:hover {
-  transform: scale(1.1);
+.home .bullets div p {
+  font-style: italic;
+  line-height: 1.2;
 }
 .home .main-container {
   padding: 10px 0 0 0;
@@ -21733,14 +21748,29 @@ footer ul li.menu-item-26 a.button:hover {
   transform: translate(0, -50%);
 }
 .metaslider-17 #metaslider_17 .caption-wrap .caption {
-  font-size: 5em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 600;
   width: 100%;
 }
 .metaslider-17 #metaslider_17 .caption-wrap .caption h2 {
   color: #FFFFFF;
 }
 .metaslider-17 #metaslider_17 .caption-wrap .caption h3 {
+  font-family: 'Amatic SC', cursive;
   color: #FFFFFF;
+  font-size: 12.5rem;
+  font-weight: 700;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .metaslider-17 #metaslider_17 .caption-wrap .caption h3 {
+    font-size: 8.125rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .metaslider-17 #metaslider_17 .caption-wrap .caption h3 {
+    font-size: 3.125rem;
+  }
 }
 
 /**********

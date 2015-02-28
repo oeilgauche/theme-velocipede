@@ -217,7 +217,7 @@ $alert-color: #f04124;
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10) !default;
 // $h2-font-reduction: rem-calc(10) !default;
-// $h3-font-reduction: rem-calc(5) !default;
+$h3-font-reduction: rem-calc(5) !default;
 // $h4-font-reduction: rem-calc(5) !default;
 // $h5-font-reduction: 0 !default;
 // $h6-font-reduction: 0 !default;
@@ -1371,7 +1371,7 @@ $topbar-bg: $topbar-bg-color;
 
 // Height and margin
 //$topbar-height: rem-calc(55);
-$topbar-height: 55px;
+$topbar-height: 75px;
 $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
