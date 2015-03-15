@@ -60,8 +60,21 @@ nav {
 			}
 		}
 	}
-	
-	
+}
+nav.show-for-small-only {
+		margin-bottom: 0;
+	}
+aside.left-off-canvas-menu {
+	ul {
+		li#menu-item-26 {
+			a {
+				background-color: $alert-color;
+			}
+			a:hover {
+				background-color: $charcoal;
+			}
+		}
+	}
 }
 
 /**********
@@ -228,5 +241,19 @@ footer {
 			border: none;
 			margin: 2px 0 2px 2px;
 		}
+	}
+}
+
+/**********
+*
+* Page Tarifs
+*
+**********/
+
+// Tabs
+.page-id-53 {
+	.tabs-content {
+		background-color: $silver;
+		padding: 0 rem-calc(24) 0 rem-calc(24);
 	}
 }

@@ -15011,17 +15011,17 @@ select {
 .tabs dd > a, .tabs .tab-title > a {
   outline: none;
   display: block;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
   color: #222222;
   padding: 1rem 2rem;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .tabs dd > a:hover, .tabs .tab-title > a:hover {
-  background-color: #e1e1e1;
+  background-color: #f0f0f0;
 }
 .tabs dd.active a, .tabs .tab-title.active a {
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;
   color: #222222;
 }
 .tabs.radius dd:first-child a, .tabs.radius .tab:first-child a {
@@ -21672,6 +21672,17 @@ nav .top-bar-section #menu-principal-1 li.menu-item-26 a {
   text-indent: -9999px;
 }
 
+nav.show-for-small-only {
+  margin-bottom: 0;
+}
+
+aside.left-off-canvas-menu ul li#menu-item-26 a {
+  background-color: #f04124;
+}
+aside.left-off-canvas-menu ul li#menu-item-26 a:hover {
+  background-color: #f08a24;
+}
+
 /**********
 *
 * Footer
@@ -21801,4 +21812,14 @@ footer ul li.menu-item-26 a.button:hover {
 .ngg-gallery-thumbnail a img {
   border: none;
   margin: 2px 0 2px 2px;
+}
+
+/**********
+*
+* Page Tarifs
+*
+**********/
+.page-id-53 .tabs-content {
+  background-color: #EFEFEF;
+  padding: 0 1.5rem 0 1.5rem;
 }

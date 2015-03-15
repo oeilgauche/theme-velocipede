@@ -35,28 +35,4 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="row">
-	<div class="large-6 columns">
-		<h2>C&ocirc;t&eacute; 1</h2>
-		<?php echo do_shortcode('[ngg_images gallery_ids="5" display_type="photocrati-nextgen_basic_thumbnails"]'); ?>
-	</div>
-	<div class="large-6 columns">
-		<h2>C&ocirc;t&eacute; 2</h2>
-		<?php echo do_shortcode('[ngg_images gallery_ids="6" display_type="photocrati-nextgen_basic_thumbnails"]'); ?>
-	</div>
-
-</div>
-<div class="row bottom-row">
-	<div class="large-6 columns">
-		<h2>C&ocirc;t&eacute; 3</h2>
-		<?php echo do_shortcode('[ngg_images gallery_ids="7" display_type="photocrati-nextgen_basic_thumbnails"]'); ?>
-	</div>
-	<div class="large-6 columns">
-		<h2>C&ocirc;t&eacute; 4</h2>
-		<?php echo do_shortcode('[ngg_images gallery_ids="8" display_type="photocrati-nextgen_basic_thumbnails"]'); ?>
-	</div>
-
-</div>
-
-
 <?php get_footer(); ?>
