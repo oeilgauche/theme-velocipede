@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <?php 
     // Photo Slider
-    echo do_shortcode("[metaslider id=17]"); 
+    //echo do_shortcode("[metaslider id=17]"); 
+    echo do_shortcode("[rev_slider homeslider_fullscreen]");
 ?>
 
 

@@ -4,7 +4,7 @@
 	<section class="row visible-for-small-only">
 		<div class="small-12 columns">
 			<a href="http://bds.hotelcloud.co/">
-				<img class="aligncenter" src="http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver-Full.png">
+				<img class="aligncenter" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/images/Bouton-Reserver-Full.png">
 			</a>
 		</div>
 	</section>
