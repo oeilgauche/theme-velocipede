@@ -1,4 +1,4 @@
-<div class="top-bar-container show-for-medium-up">
+<div class="top-bar-container show-for-medium-up fixed">
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
             <li class="name">
