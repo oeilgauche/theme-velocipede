@@ -21654,7 +21654,8 @@ body .container {
 nav ul.title-area h1 {
   width: 120px;
   height: 75px;
-  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/icons/Logo-Light.png") no-repeat center;
+  background-size: 75px 75px;
+  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/icons/Logo-Light.png") no-repeat center;
   text-indent: -9999px;
 }
 nav .top-bar-section #menu-principal-1 li.menu-item-26 {
@@ -21673,11 +21674,11 @@ nav .top-bar-section #menu-principal-1 li.menu-item-26 a {
   padding: 0;
   width: 110px;
   height: 75px;
-  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
+  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
   text-indent: -9999px;
 }
 nav .top-bar-section #menu-principal-1 li.menu-item-26 a:hover {
-  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver-Hover.png") no-repeat center;
+  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver-Hover.png") no-repeat center;
 }
 
 nav.show-for-small-only {
@@ -21704,10 +21705,11 @@ footer p {
   color: #FFFFFF;
   font-size: 0.75 rem;
 }
-footer ul.social li.velo a {
+footer .social-block ul.social li.velo a {
   width: 124px;
   height: 100px;
-  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/icons/facebook-velo-footer.png") no-repeat center;
+  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/icons/facebook-velo-footer.png") no-repeat center;
+  background-size: 124px 100px;
   text-indent: -9999px;
   opacity: 1;
   -moz-transition-property: opacity;
@@ -21723,13 +21725,14 @@ footer ul.social li.velo a {
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-footer ul.social li.velo a:hover {
+footer .social-block ul.social li.velo a:hover {
   opacity: 0.5;
 }
-footer ul.social li.lfdac a {
+footer .social-block ul.social li.lfdac a {
   width: 124px;
   height: 100px;
-  background: url("http://auvelocipede.dev/wp-content/themes/velocipede/assets/img/icons/facebook-lfdac-footer.png") no-repeat center;
+  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/icons/facebook-lfdac-footer.png") no-repeat center;
+  background-size: 124px 100px;
   text-indent: -9999px;
   opacity: 1;
   -moz-transition-property: opacity;
@@ -21745,7 +21748,7 @@ footer ul.social li.lfdac a {
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-footer ul.social li.lfdac a:hover {
+footer .social-block ul.social li.lfdac a:hover {
   opacity: 0.5;
 }
 footer ul#footer-menu-secondaire li a {
@@ -21756,7 +21759,7 @@ footer ul li a {
   color: #FFFFFF;
 }
 footer ul li a:hover {
-  color: #F5F5F5;
+  color: #CF2A0E;
 }
 footer ul li.menu-item-26 a.button {
   top: 24%;
@@ -21810,7 +21813,7 @@ footer ul li.menu-item-26 a.button:hover {
 .home .main-container {
   padding: 10px 0 0 0;
   margin: 0;
-  background-color: #CCCCCC;
+  background-color: #999999;
 }
 .home .main-container #post-2 img {
   opacity: 1;

@@ -4,6 +4,19 @@ Author: Ole Fredrik Lie
 URL: http://olefredrik.com
 */
 
+add_filter( 'nav_menu_link_attributes', 'my_nav_menu_attribs', 10, 3 );
+function my_nav_menu_attribs( $atts, $item, $args )
+{
+  // The ID of the target menu item
+  $menu_target = 26;
+
+  // inspect $item
+  if ($item->ID == $menu_target) {
+    $atts['data-reveal-id'] = 'myModal';
+  }
+  return $atts;
+}
+
 
 // Various clean up functions
 require_once('library/cleanup.php');

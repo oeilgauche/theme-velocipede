@@ -5,7 +5,6 @@
     echo do_shortcode("[rev_slider homeslider_fullscreen]");
 ?>
 
-
 <div class="row bullets">
 <?php 
 // Liens vers les 3 espaces

@@ -55,4 +55,12 @@
 	<?php get_template_part('parts/top-bar'); ?>
 
 <section class="container" role="document">
+
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">Le module de réservation sera bientôt actif</h2>
+  <p>En attendant, vous pouvez nous contacter par téléphone  : 03.22.60.57.42 ou 06.47.85.45.42</p>
+  <p>Vous pouvez aussi <a href="http://auvelocipede.fr/nous-contacter/">nous écrire</a>.</p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
 	<?php do_action('foundationPress_after_header'); ?>

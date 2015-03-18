@@ -3,8 +3,8 @@
 <footer>
 	<section class="row visible-for-small-only">
 		<div class="small-12 columns">
-			<a href="http://bds.hotelcloud.co/">
-				<img class="aligncenter" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/images/Bouton-Reserver-Full.png">
+			<a data-reveal-id="myModal" href="#" >
+				<img class="aligncenter" height="150" width="150" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/images/Bouton-Reserver-Full.png">
 			</a>
 		</div>
 	</section>
@@ -37,9 +37,9 @@
 				
 				?>
 
-			<p>Copyright <?php echo date("o");; ?> Au V&eacute;locip&egrave;de</p>
+			<p>Copyright <?php echo date("o");; ?> Au V&eacute;locip&egrave;de - R&eacute;alisation <a href="http://www.oeilgauche.com">oeilgauche</a></p>
 		</div>
-		<div class="large-4 columns">
+		<div class="large-4 columns social-block">
 			<ul class="inline-list social">
 				<li class="velo">
 					<a href="https://www.facebook.com/pages/Au-V%C3%A9locip%C3%A8de/158095537572405?ref=br_rs" title="Suivez l'actualité du Vélocipède sur Facebook">FacebookVelo</a>
