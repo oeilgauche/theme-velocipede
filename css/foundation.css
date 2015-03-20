@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -21658,27 +21659,16 @@ nav ul.title-area h1 {
   background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/icons/Logo-Light.png") no-repeat center;
   text-indent: -9999px;
 }
-nav .top-bar-section #menu-principal-1 li.menu-item-26 {
-  /*background-color: $alert-color;
-  a.button {
-  	// color: $white;
-  	top: 24%;
-  	background-color: $alert-color;
-  	border-radius: 500px;
-  }
-  a.button:hover {
-  	background-color: #cf2a0e;
-  }*/
-}
 nav .top-bar-section #menu-principal-1 li.menu-item-26 a {
-  padding: 0;
-  width: 110px;
-  height: 75px;
-  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
-  text-indent: -9999px;
+  		/*padding: 0;
+  		width: 110px; 
+	  	height: 75px;
+	  	background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver.png") no-repeat center;
+	  	text-indent: -9999px;*/
 }
-nav .top-bar-section #menu-principal-1 li.menu-item-26 a:hover {
-  background: url("http://auvelocipede.fr/wp-content/themes/velocipede/assets/img/images/Bouton-Reserver-Hover.png") no-repeat center;
+nav .top-bar-section #menu-principal-1 li.menu-item-26 a.button {
+  top: 28%;
+  border-radius: 500px;
 }
 
 nav.show-for-small-only {
@@ -21778,6 +21768,9 @@ footer ul li.menu-item-26 a.button:hover {
 * Homepage
 *
 **********/
+.home #rev_slider_1_1 .Bandeau img {
+  opacity: 0.4 !important;
+}
 .home .bullets {
   margin-top: 20px;
 }
@@ -21906,6 +21899,33 @@ footer ul li.menu-item-26 a.button:hover {
 
 /**********
 *
+* D├®tails chambres
+*
+**********/
+section.reserver {
+  padding-bottom: 20px;
+}
+section.reserver img {
+  opacity: 1;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+section.reserver img:hover {
+  opacity: 0.5;
+}
+
+/**********
+*
 * Galeries photo chambres
 *
 **********/
@@ -21916,6 +21936,14 @@ footer ul li.menu-item-26 a.button:hover {
 .ngg-gallery-thumbnail a img {
   border: none;
   margin: 2px 0 2px 2px;
+}
+
+.room-gallery h2 {
+  margin-bottom: 0;
+}
+.room-gallery h2.sub {
+  line-height: 0.8;
+  margin-top: 0;
 }
 
 /**********

@@ -1,13 +1,6 @@
 </section>
 
 <footer>
-	<section class="row visible-for-small-only">
-		<div class="small-12 columns">
-			<a data-reveal-id="myModal" href="#" >
-				<img class="aligncenter" height="150" width="150" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/images/Bouton-Reserver-Full.png">
-			</a>
-		</div>
-	</section>
 	<section class="row">
 		<div class="large-8 columns">
 			<?php do_action('foundationPress_before_footer'); ?>
