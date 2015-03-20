@@ -21833,6 +21833,17 @@ footer ul li.menu-item-26 a.button:hover {
 .home .main-container #post-2 img:hover {
   opacity: 0.5;
 }
+.home .main-container .entry-content div div {
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .home .main-container .entry-content div div {
+    padding: 0 100px 0 100px;
+  }
+}
+.home .main-container .entry-content figure {
+  padding: 10px 0 10px 0;
+}
 
 .inner-wrap .top-bar-container {
   margin-bottom: 0;

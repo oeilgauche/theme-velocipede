@@ -222,6 +222,19 @@ footer {
 				opacity: 0.5;
 			}
 		}
+		.entry-content {
+			div {
+				div {
+					color: $white;
+					@media #{$large-only} {
+						padding: 0 100px 0 100px;
+					 }
+				}
+			}
+			figure {
+				padding: 10px 0 10px 0;
+			}
+		}
 	}
 }
 .inner-wrap .top-bar-container {
